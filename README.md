@@ -121,6 +121,7 @@ This predicted depth is sent to the **servo-controlled plough mechanism**, which
 
 ## 📁 Repository Structure
 
+```
 Autonomous-Seed-Sowing-Machine/
 │
 ├── predictor/                  # Inference code and saved models
@@ -133,11 +134,10 @@ Autonomous-Seed-Sowing-Machine/
 ├── matrix.ipynb                # EDA and correlation analysis
 ├── indian_crop_data_realistic_v2.csv
 └── README.md                   # Project documentation
+```
 
 ---
 
-
----
 
 ## 🧑‍🌾 Real-World Benefits
 - 🔹 Optimizes sowing depth automatically for better germination  

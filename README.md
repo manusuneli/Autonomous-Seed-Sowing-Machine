@@ -118,4 +118,42 @@ This predicted depth is sent to the **servo-controlled plough mechanism**, which
 
 ---
 
+
 ## 📁 Repository Structure
+
+Autonomous-Seed-Sowing-Machine/
+│
+├── predictor/                  # Inference code and saved models
+│   ├── yield_predictor_final_v2.txt
+│   ├── depth_predictor_model.txt
+│   └── predictor_utils.py
+│
+├── train.ipynb                 # LightGBM model training
+├── yield_train.ipynb           # Yield prediction training
+├── matrix.ipynb                # EDA and correlation analysis
+├── indian_crop_data_realistic_v2.csv
+└── README.md                   # Project documentation
+
+---
+
+
+---
+
+## 🧑‍🌾 Real-World Benefits
+- 🔹 Optimizes sowing depth automatically for better germination  
+- 🔹 Predicts expected yield in real time  
+- 🔹 Reduces seed wastage by 25–30%  
+- 🔹 Increases overall field productivity and efficiency  
+- 🔹 Scalable across various crops and soil types  
+
+---
+
+## 💡 Future Enhancements
+- Integrate **Deep Learning (CNN)** for improved soil classification  
+- Real-time **adaptive retraining** using continuous data streams  
+- Extend dataset for region-specific crop models  
+- Optimize model for **Edge AI deployment** on Raspberry Pi  
+
+---
+
+
